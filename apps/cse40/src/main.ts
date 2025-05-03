@@ -12,7 +12,7 @@ async function bootstrap() {
     .addTag('basic-processing', 'Basic image processing operations')
     .addTag('enhancement', 'Image enhancement operations')
     .addTag('feature-detection', 'Image feature detection operations')
-    .build('api', app, document);
+    .build();
     
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
